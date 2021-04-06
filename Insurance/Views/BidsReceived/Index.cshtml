@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Insurance.Models.OfferInsurance>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<section>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Index</title>
+    </head>
+    <body>
+        <p>
+            <a asp-action="ReceivedBids">Received Bids</a>
+        </p>
+        <div class="box-body">
+            <table class="table table-hover ">
+                <thead>
+                    <tr>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.Id)
+                            </th>*@
+                        <th>
+                            @Html.DisplayNameFor(model => model.CompanyName)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.CompanyLogo)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.OfferDescription)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.OfferAmount)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.LicensePlate)
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            @*<td>
+                                    @Html.DisplayFor(modelItem => item.Id)
+                                </td>*@
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CompanyName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.CompanyLogo)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OfferDescription)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.OfferAmount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.LicensePlate)
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </body>
+</section>
+
+
+

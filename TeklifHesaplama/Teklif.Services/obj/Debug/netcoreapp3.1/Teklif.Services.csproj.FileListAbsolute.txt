@@ -1,0 +1,9 @@
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\bin\Debug\netcoreapp3.1\Teklif.Services.deps.json
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\bin\Debug\netcoreapp3.1\Teklif.Services.dll
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\bin\Debug\netcoreapp3.1\Teklif.Services.pdb
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.AssemblyInfoInputs.cache
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.AssemblyInfo.cs
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.csproj.CoreCompileInputs.cache
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.dll
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.pdb
+D:\SigortamNetProject\TeklifHesaplama\Teklif.Services\obj\Debug\netcoreapp3.1\Teklif.Services.csprojAssemblyReference.cache
